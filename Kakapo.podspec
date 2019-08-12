@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Kakapo"
-  s.version          = "2.1.0"
+  s.version          = "2.2.0-RT"
   s.summary          = "Dynamically Mock server behaviors and responses."
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/devlucky/Kakapo"
   s.license          = 'MIT'
   s.author           = { "Alex Manzella" => "manzopower@icloud.com", "Joan Romano" => "joanromano@gmail.com" }
-  s.source           = { :git => "https://github.com/devlucky/Kakapo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Buju77/Kakapo.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/devluckyness'
 
   s.ios.deployment_target = '8.0'
